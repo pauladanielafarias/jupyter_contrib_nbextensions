@@ -3,13 +3,13 @@
 ### How to install the jupyter_contrib_nbextensions and which are the extensions provided.
 
 # I. Installing Conda
-Before installing anything that's below, you must install Conda.
+Before installing anything that's below, you must install Conda. If you already have it installed, skip this step.
 
 You can do it from here: https://docs.conda.io/en/latest/miniconda.html#
 
 
 # II. Installing Jupyter Notebook using Conda
-Before you can install the extensions, you must install **Jupyter Notebook**. 
+Before you can install the extensions, you must install **Jupyter Notebook**. If you already have it installed, skip this step.
 
 NOTICE: It doesn't work with the _JupyterLab_ version.
 
