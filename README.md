@@ -43,15 +43,17 @@ The information above is an abstract from the information available at:
 
 - [Snippets Menu](https://jupyter-contrib-nbextensions.readthedocs.io/en/latest/nbextensions/snippets_menu/readme.html): This extension adds a _customizable menu item_ to **insert code and markdown snippets**. Comes with extensive defaults for popular python modules, including fairly complete listings of many important functions and constants, to save searching through documentation.
 
+- [Scratchpad notebook](https://jupyter-contrib-nbextensions.readthedocs.io/en/latest/nbextensions/scratchpad/README.html): This extension **adds a scratchpad** cell to Jupyter notebook. This is a cell in which you can execute code against the current kernel without modifying the notebook document.
+
 - [ScrollDown](https://jupyter-contrib-nbextensions.readthedocs.io/en/latest/nbextensions/scroll_down/readme.html): This extension **scrolls cells' outputs** down automatically as they are **enlarged**. (It can be enabled and disabled using the toolbar button).
+
+- [Variable Inspector](https://jupyter-contrib-nbextensions.readthedocs.io/en/latest/nbextensions/varInspector/README.html): This extension _collects all_ **defined variables** and display them in a **floating window**. The extension is also draggable, resizable, collapsable. 
 
 - [Hide input](https://jupyter-contrib-nbextensions.readthedocs.io/en/latest/nbextensions/hide_input/readme.html): This extension **toggles display** of selected code cell's **input**
 
 - [Spellchecker](https://jupyter-contrib-nbextensions.readthedocs.io/en/latest/nbextensions/spellchecker/README.html): This extension adds a CodeMirror overlay mode for Typo.js **spellchecking**. (Default language is en_US)
 
 - [Highlighter](https://jupyter-contrib-nbextensions.readthedocs.io/en/latest/nbextensions/highlighter/readme.html): This extension provides several _toolbar buttons_ for **highlighting** a selected text within a **markdown cell**. 
-
-- 
 
 
 Here's the list of all the available extensions that can be enabled:
