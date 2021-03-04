@@ -2,7 +2,24 @@
 
 ### How to install the jupyter_contrib_nbextensions and which are the extensions provided.
 
-# Installing with Conda
+# I. Installing Conda
+Before installing anything that's below, you must install Conda.
+
+You can do it from here: https://docs.conda.io/en/latest/miniconda.html#
+
+
+# II. Installing Jupyter Notebook using Conda
+Before you can install the extensions, you must install **Jupyter Notebook**. 
+
+NOTICE: It doesn't work with the _JupyterLab_ version.
+
+```
+
+conda install -c conda-forge notebook
+```
+
+
+# III. Installing jupyter_contrib_nbextensions using Conda
 
 1. There are conda packages for the notebook extensions and the [jupyter_nbextensions_configurator](https://github.com/Jupyter-contrib/jupyter_nbextensions_configurator) available from [conda-forge](https://conda-forge.org/). You can install both using:
 
@@ -22,6 +39,10 @@ conda install -c conda-forge jupyter_nbextensions_configurator
 
 <img width="1261" alt="nbextensions configuration interface" src="https://user-images.githubusercontent.com/47432769/109993317-eb7d9700-7cea-11eb-8dd7-17223a4ccf3f.png">
 
+<!--
+<img width="1261" alt="nbextensions configuration interface tab" src="https://user-images.githubusercontent.com/47432769/110015925-360b0d80-7d03-11eb-8356-a40deda11fcc.png">
+-->
+
 The information above is an abstract from the information available at: 
 
 - [Installing jupyter_contrib_nbextensions](https://jupyter-contrib-nbextensions.readthedocs.io/en/latest/install.html)
@@ -35,7 +56,7 @@ The information above is an abstract from the information available at:
 
 - [Hinterland](https://jupyter-contrib-nbextensions.readthedocs.io/en/latest/nbextensions/hinterland/README.html): This extension enables **code autocompletion menu** for every keypress in a code cell, instead of only enabling it with tab.
 
-- [Code prettify](https://jupyter-contrib-nbextensions.readthedocs.io/en/latest/nbextensions/code_prettify/README_code_prettify.html): This extension uses kernel-specific code to **reformat/prettify the contents of code cells*.
+- [Code prettify](https://jupyter-contrib-nbextensions.readthedocs.io/en/latest/nbextensions/code_prettify/README_code_prettify.html): This extension uses kernel-specific code to **reformat/prettify** the _contents of code cells_.
 
 - [Code folding](https://jupyter-contrib-nbextensions.readthedocs.io/en/latest/nbextensions/codefolding/readme.html): This extension enables the CodeMirror feature to allow **codefolding in code cells**.
 
@@ -56,9 +77,9 @@ The information above is an abstract from the information available at:
 - [Highlighter](https://jupyter-contrib-nbextensions.readthedocs.io/en/latest/nbextensions/highlighter/readme.html): This extension provides several _toolbar buttons_ for **highlighting** a selected text within a **markdown cell**. 
 
 
-Here's the list of all the available extensions that can be enabled:
+
+Here's the list of **all** the available extensions that can be enabled:
 [List of provided nbextensions](https://jupyter-contrib-nbextensions.readthedocs.io/en/latest/nbextensions.html)
 
 
-<img width="1261" alt="List of jupyter_contrib_nbextensions" src="https://user-images.githubusercontent.com/47432769/109993404-03edb180-7ceb-11eb-8fa1-2fa4f5eec285.png">
-
+<img width="1261" alt="List of jupyter_contrib_nbextensions" src="https://user-images.githubusercontent.com/47432769/110016461-cfd2ba80-7d03-11eb-9027-c23fc33d7feb.png">
