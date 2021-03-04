@@ -34,7 +34,10 @@ conda install -c conda-forge jupyter_contrib_nbextensions
 conda install -c conda-forge jupyter_nbextensions_configurator
 ```
 
-3. Once _jupyter_nbextensions_configurator_ is installed and enabled, and your notebook server has been **restarted**, you should be able to find the nbextensions configuration interface at the url http://localhost:8889/tree in the _Nbextensions_ tab.
+3. Once _jupyter_nbextensions_configurator_ is installed and enabled, and your notebook server has been **restarted**, you should be able to find the nbextensions configuration interface at the url http://localhost:8889/tree (or whatever port you have) in the _Nbextensions_ tab. 
+
+
+Reminder: to start your notebook server just go to the terminal, ```cd path/to/directory``` and run the command ```jupyter-notebook```, this will open a new tab in Google Chrome with your Jupyter Notebook and your files in it.
 
 
 <img width="1261" alt="nbextensions configuration interface" src="https://user-images.githubusercontent.com/47432769/109993317-eb7d9700-7cea-11eb-8dd7-17223a4ccf3f.png">
