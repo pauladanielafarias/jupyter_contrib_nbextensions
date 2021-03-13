@@ -32,7 +32,7 @@ If you have Windows 10 and the command gives you this error ```HTTP 000 CONNECTI
 You should do the following:
 1. Install [OpenSSL](https://slproweb.com/products/Win32OpenSSL.html)
 2. Start your command prompt with run as administrator 
-3. Run the command above to install Jupyter Notebook again
+3. Try to run the command above to install Jupyter Notebook again
 
 # III. Installing jupyter_contrib_nbextensions using Conda
 
