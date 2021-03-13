@@ -7,6 +7,15 @@ Before installing anything that's below, you must install Conda. If you already 
 
 You can do it from here: https://docs.conda.io/en/latest/miniconda.html#
 
+If you have Windows 10, remember that _after_ installing Conda, you'll need to set the path to the location where you installed it.
+To do that you need to:  
+1. Hit the ```Windows key```
+2. Search the word '_environment_' 
+3. Choose '_Edit environment variables for your account_' 
+4. Select the **_Path_** variable (double click) 
+5. Click '_New_'.
+6. Paste the path where you have the Miniconda installed e.g. C:\ProgramData\Miniconda3 and also the scripts folder path e.g. C:\ProgramData\Miniconda3\Scripts
+
 
 # II. Installing Jupyter Notebook using Conda
 Before you can install the extensions, you must install **Jupyter Notebook**. If you already have it installed, skip this step.
