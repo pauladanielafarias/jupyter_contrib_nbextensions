@@ -24,7 +24,6 @@ Before you can install the extensions, you must install **Jupyter Notebook**. If
 NOTICE: It doesn't work with the _JupyterLab_ version.
 
 ```
-
 conda install -c conda-forge notebook
 ```
 
