@@ -16,6 +16,7 @@ To do that you need to:
 5. Click '_New_'.
 6. Paste the path where you have the Miniconda installed e.g. C:\ProgramData\Miniconda3 and also the scripts folder path e.g. C:\ProgramData\Miniconda3\Scripts
 
+To test it, open a new cmd shell, and you should be able to use conda commands now, e.g. try ```conda --version```.
 
 # II. Installing Jupyter Notebook using Conda
 Before you can install the extensions, you must install **Jupyter Notebook**. If you already have it installed, skip this step.
