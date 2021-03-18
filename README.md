@@ -54,6 +54,11 @@ conda install -c conda-forge jupyter_nbextensions_configurator
 
 Reminder: to start your notebook server just go to the terminal, ```cd path/to/directory``` and run the command ```jupyter-notebook```, this will open a new tab in Google Chrome with your Jupyter Notebook and your files in it.
 
+4. Copy the nbextensions’ javascript and css files into your jupyter server’s search directory. This will 'install' all the nbextensions and you'll be able to see them in the _Nbextensions tab_. There you can enable or disable the ones you want.
+```
+jupyter contrib nbextension install --user
+```
+
 
 <img width="1261" alt="nbextensions configuration interface" src="https://user-images.githubusercontent.com/47432769/109993317-eb7d9700-7cea-11eb-8dd7-17223a4ccf3f.png">
 
